@@ -12,7 +12,6 @@ const MyFooter = () => {
     return (
         <footer >
             <div className='myfooter__socials'>
-
                <h1>Контакты</h1>
                 <div className='myfooter__socials__icons'>
                     <img src={instaIcon} alt="inst"/>
@@ -23,7 +22,6 @@ const MyFooter = () => {
                     <img src={viberIcon} alt="inst"/>
                     <img src={tgIcon} alt="inst"/>
                 </div>
-
             </div>
             <div className='myfooter__contacts'>
                 <a href='tel:79876543210'>+7 (987) 654-32-10</a>

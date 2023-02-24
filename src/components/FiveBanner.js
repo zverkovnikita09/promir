@@ -6,8 +6,6 @@ const FiveBanner = () => {
     const fiveBannerRef = React.useRef();
 
     const initBlock = () => {
-
-        // const observer = new IntersectionObserver(secondBannerRef.current)
         const observerIn = new IntersectionObserver((entry, observer) => {
 
             if (entry[0].isIntersecting) {
